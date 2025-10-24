@@ -5,7 +5,7 @@ Servo myServo; // Create a Servo object
 const int potPin = A0; // Define the analog input pin for the potentiometer
 
 void setup() {
-myServo.attach(11); // Attach the servo to pin 10
+myServo.attach(11); // Attach the servo to pin 11
 }
 
 void loop() {

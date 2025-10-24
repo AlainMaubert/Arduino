@@ -345,11 +345,9 @@ void setup() {
 }
 
 void loop() {
-  // Option 2: Loop both songs forever (comment out setup content if using this)
-  playMelody(melodyJoy, notesJoy, tempoJoy);
-  delay(1000);
-  playMelody(melodyStorms, notesStorms, tempoStorms);
-  delay(1000);
+  //delay(1000);
+  //playMelody(melodyStorms, notesStorms, tempoStorms);
+  //delay(1000);
   playMelody(melodyMario, notesMario, tempoMario);
   delay(1000);
   playMelody(melodyZelda, notesZelda, tempoZelda);
