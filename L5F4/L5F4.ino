@@ -1,8 +1,8 @@
 #include <Adafruit_NeoPixel.h>
 
-#define SW_PIN 10      // Button pin
-#define RX_PIN A5     // Horizontal axis pin
-#define RY_PIN A4     // Vertical axis pin
+#define SW_PIN 2      // Button pin
+#define RX_PIN A0     // Horizontal axis pin
+#define RY_PIN A1     // Vertical axis pin
 #define LED_PIN 6     // NeoPixel data pin
 #define NUM_LEDS 8    // Number of LEDs on the strip
 
@@ -55,4 +55,3 @@ void loop() {
   strip.show(); // Update the LED strip after all colors are set
   delay(100);   // Small delay for stability
 }
-

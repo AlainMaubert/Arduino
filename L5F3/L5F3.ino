@@ -1,6 +1,6 @@
-#define SW_PIN 10   // Button pin
-#define RX_PIN A5  // Horizontal axis pin
-#define RY_PIN A4  // Vertical axis pin
+#define SW_PIN 2   // Button pin
+#define RX_PIN A0  // Horizontal axis pin
+#define RY_PIN A1  // Vertical axis pin
 
 void setup() {
   pinMode(SW_PIN, INPUT_PULLUP);  // Button uses internal pull-up resistor
@@ -28,4 +28,3 @@ void loop() {
 
   delay(100);  // Short delay for readability
 }
-

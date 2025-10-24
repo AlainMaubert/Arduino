@@ -31,4 +31,3 @@ void loop() {
   
   delay(500); // Wait before the next reading
 }
-

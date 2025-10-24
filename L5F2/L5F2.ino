@@ -1,4 +1,4 @@
-#define LIGHT_PIN A0
+#define LIGHT_PIN A5
 #define LED_PIN 9
 
 void setup() {
@@ -20,4 +20,3 @@ void loop() {
   }
   delay(100);
 }
-
