@@ -13,7 +13,7 @@ void loop() {
   Serial.print("Light Level: ");
   Serial.println(lightLevel);
 
-  if (lightLevel < 500) { // Adjust threshold as needed
+  if (lightLevel < 600) { // Adjust threshold as needed
     digitalWrite(LED_PIN, HIGH);
   } else {
     digitalWrite(LED_PIN, LOW);
