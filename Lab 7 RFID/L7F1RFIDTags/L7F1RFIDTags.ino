@@ -31,3 +31,5 @@ void loop() {
   // Halt communication with the tag
   rfid.PICC_HaltA();
 }
+// Blue RFID UID: 7D 4 C9 1
+// White RFID UID: 72 A3 FB 3
