@@ -8,7 +8,7 @@ void setup() {
 
 void loop() {
   // Rotate clockwise at 5 RPM
-  stepper.setSpeed(5);
+  stepper.setSpeed(13);
   stepper.step(STEPS);  // Rotate one full revolution clockwise
   delay(1000);          // Wait for 1 second
 
