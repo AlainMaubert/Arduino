@@ -61,7 +61,7 @@ void loop() {
     Serial.println("YOU SHALL NOT PASS! Wrong RFID tag! CALLING PROTECTIVE SERVICES!"); //replace this message with a wrong ID message of your choice
     //-------------------------------------------------------------------------------
 
-    blinkLED(RED_LED, 5); // Blink red LED 3 times
+    blinkLED(RED_LED, 5); // Blink red LED 5 times
   }
 
   // Halt PICC (Passive Communication Card)
