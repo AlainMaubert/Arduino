@@ -12,9 +12,9 @@ void setup() {
 void loop() {
 // Display the first message
 lcd.setCursor(0, 0); // Set cursor to the first column of the first row
-  lcd.print("1ML1");
+  lcd.print("CS 207 Gadgets!");
   lcd.setCursor(0, 1); // Move to the second row
-  lcd.print("1ML2");
+  lcd.print("Lab 8: Displays");
 
   delay(3000);
 
@@ -24,9 +24,9 @@ lcd.setCursor(0, 0); // Set cursor to the first column of the first row
 
   // Display the second message
   lcd.setCursor(0, 0); // Set cursor to the first column of the first row
-  lcd.print("2ML1"); // Replace with your second message
+  lcd.print("2nd Message L1"); // Replace with your second message
   lcd.setCursor(0, 1); // Move to the second row
-  lcd.print("2ML2");
+  lcd.print("2nd Message L2");
  
   delay(3000); // Wait for 6 seconds
 
