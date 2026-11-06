@@ -52,7 +52,7 @@ void loop() {
   // Clear the display and print the distance and potentiometer value
   display.clearDisplay();
   display.setCursor(0, 0);  // Set the cursor to the top-left corner
-  display.setTextSize(1);    // Set the text size to normal
+  display.setTextSize(2);    // Set the text size to normal
   display.setTextColor(SSD1306_WHITE);  // Set the text color to white
   
   // Display the measured distance on the OLED
